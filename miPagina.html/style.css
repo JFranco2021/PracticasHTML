@@ -1,0 +1,36 @@
+#demoFont {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25px;
+    letter-spacing: 3.4px;
+    word-spacing: 5.6px;
+    color: #000000e5;
+    font-weight: 400;
+    text-decoration: none solid rgba(109, 20, 20, 0.932);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    text-align: center;
+    }
+
+
+    body{
+        background: #074d35c2;
+      }
+      
+      .contenedor {
+        position: relative;
+        height: 700px;
+        width: 700px;
+        margin: 20px 20px;
+        float: left;
+      }
+      
+      .contenedor img {
+        position: absolute;
+        left: 300;
+        transition: opacity .7s ease-in-out;
+      }
+      
+      .contenedor img.top:hover {
+        opacity: 0;
+      }
