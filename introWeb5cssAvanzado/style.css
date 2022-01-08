@@ -1,0 +1,74 @@
+#main{
+    background-color: whitesmoke;
+    margin: 30px;
+    text-align: center;
+    
+}
+
+body{
+    font-family: verdana;
+    font-size: 1.5em;
+}
+
+h3{
+    color: blue;
+    text-align: center;
+
+}
+
+.alert{
+    color:  #72353D;
+    background-color: #EAD2D5;
+}
+
+#etiqueta{
+    position: absolute;
+    height: 200px;
+    
+}
+
+#etiquetaRoja{
+    padding: 20px;
+    color:  white;
+    background-color: red;
+    height: 200px;
+    width: 40%;
+    border-style: solid;
+    border: 1px solid black;
+    border-radius: 50px;
+    transform: rotate(90deg); 
+    animation-name: rojo;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+#etiquetaAzul{
+    padding: 20px;
+    color:  white;
+    background-color: blue;
+    height: 200px;
+    width: 40%;
+    border-style: solid;
+    border: 1px solid black;
+    border-radius: 50px;
+    transform: rotate(90deg);
+    animation-name: azul;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+
+@keyframes rojo {
+    0%   {background-color:red; left:0px; top:0px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+@keyframes azul {
+    0%   {background-color:blue}
+    50%  {background-color:red;}
+    100% {background-color:blue;}
+}
+

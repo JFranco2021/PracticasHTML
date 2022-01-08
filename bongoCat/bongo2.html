@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/bongoCat/imagenes/favicon-32x32.png">
+    <link href="style.css" rel="stylesheet">
+    <title>Bongo Cat</title>
+</head>
+
+<body>
+
+    <div>
+        <img src="/bongoCat/imagenes/3.PNG">
+    </div>
+
+    <div id="boton">
+        <button class="reproductor"><span class="key">PLAY</span></button>
+        </div>
+    
+        <script>
+            let boton = document.querySelector(".reproductor")
+    
+            boton.addEventListener("click", () => {
+                let etiquetaAudio = document.createElement("audio")
+                etiquetaAudio.setAttribute("src", "/bongoCat/sonidos/sounds_bongo1.mp3")
+                etiquetaAudio.play()
+            })
+        </script>
+        <div>
+
+    <footer id="main-footer">
+        <p> <a href="bongo.html">Bongo</a>__________<a href="bongo2.html">Bongo_derecho</a>__________<a href="piano.html">Piano</a>__________<a href="piano2.html">Piano_derecho</a>________<a href="boca.html">Boca</a>__________<a href="boca2.html">Boca_derecha</a></p>
+    </footer>
+
+</body>
+
+</html>
