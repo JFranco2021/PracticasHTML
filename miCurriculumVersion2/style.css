@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #eee9dd; 
+	font-size: 1em;
+	line-height: 1.5em;
+    padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+
+#main-header {
+    background-color:rgb(175, 137, 86);
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 29px;
+    letter-spacing: 1.8px;
+    word-spacing: 3.6px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+	height: 80px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    text-align: center;
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+
+
+#main-header a {
+    color: black;
+}
+
+
+#logo-header {
+float: none;
+padding: 0px 0 0 0px;
+text-decoration: none;
+}
+
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 600;
+    font-size: 0.7em;
+}
+
+img {
+	max-width: 100%;
+	height:max-content;
+}
+
+
+#main-content {
+	background: white;
+	width: 100%;
+	max-width: 800px;
+	margin: 0px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+
+	#main-content .titulo {
+		text-align: center;
+        color: rgb(175, 137, 86);
+	}
+
+    
+    #main-content .contenedor {
+        position:relative;
+        height: 700px;
+        width: 700px;
+        margin: -100px 0px;
+        float:none
+
+      }
+      
+      #main-content .contenedor img {
+        position: absolute;
+        transition: opacity 1s ease-in-out;
+      }
+      
+      #main-content .contenedor img.top:hover {
+        opacity: 0;
+      }
+
+      #demoparagraph {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-gap: 30px;
+        -moz-column-gap: 30px;
+        column-gap: 30px;
+        -webkit-column-rule: 1px solid rgba(28,110,164,0.5);
+        -moz-column-rule: 1px solid rgba(28,110,164,0.5);
+        column-rule: 1px solid rgba(28,110,164,0.5);
+        }
+
+        table.unstyledTable {
+            border: 20px solid white;
+            width: 100%;
+            height: 100%;
+            text-align:start;
+          }
+          
+          table.unstyledTable tbody td {
+            border: 100px;
+            font-size:200px;
+            font-weight: 700;
+            font-size: .8em;
+            color: black;
+            
+            text-align:center;
+          }
+          table.unstyledTable thead {
+            background:  rgb(175, 137, 86);
+            
+          }
+          table.unstyledTable thead th {
+            
+            font-size: 20px;
+            font-weight:bold;
+            text-align:center;
+            color: white;
+          }
+          
+          
+        
+          #main-footer {
+            background: rgb(175, 137, 86);
+            color: rgb(175, 137, 86);
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+            #main-footer p {
+                margin: 0;
+            }
+            
+            #main-footer a {
+                color: white;
+            }
